@@ -1,22 +1,29 @@
-import useQuestionStore from "../../store/zustand";
+import useQuestionStore from "../../store/questions";
+import settings from "../../store/settings";
+import { usePlayers } from '../../PlayersContext';
+import getRandomQuestions from "../../store/randomQuestions";
 import { useNavigate, useParams } from "react-router-dom";
 import TimeStamp from "../../components/TimeStamp/TimeStamp";
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
 import AnimateProvider from "../../components/AnimateProvider/AnimateProvider";
 import Question from "../../components/Questions/Questions";
 
 function SingleQuestion() {
+  const { players, addAnswer, addQuestions, trueAction, falseAction } = usePlayers();
+  const questions = useQuestionStore.questionData.question
   const navigate = useNavigate();
-  const {
-    question: allQuestion,
-    trueAction,
-    falseAction,
-    addAnswer,
-    page,
-    nextPage,
-  } = useQuestionStore();
-
+  let page = useQuestionStore.questionData.page
   const { id } = useParams();
+  const [currentPlayerIndex, setCurrentPlayerIndex] = useState(0);
+  const [currentPlayer, setCurrentPlayer] = useState(players[0]);
+
+  useEffect(() => {
+    setCurrentPlayer(players[currentPlayerIndex]);
+  }, [currentPlayerIndex, players]);
+
+  const handleNextQuestion = () => {
+    setCurrentPlayerIndex((prevIndex) => (prevIndex + 1) % players.length);
+  };
 
   useEffect(() => {
     if (Number(id) < page) {
@@ -24,36 +31,45 @@ function SingleQuestion() {
     }
   }, [id]);
 
-  const singleQuestion = allQuestion?.[page - 1];
+  const singleQuestion = questions?.[page - 1]
+
   const { correct_answer } = singleQuestion;
 
-  const handleClick = (value) => {
+  const handleAnswer = (value) => {
     //Add answer
-    addAnswer({ question: singleQuestion.question, answer: value });
-
+    useQuestionStore.addAnswer({ question: singleQuestion.question, answer: value });
+    addAnswer(currentPlayerIndex, { question: singleQuestion.question, answer: value })
     //Verify Answer
     if (value === correct_answer) {
-      trueAction();
+      useQuestionStore.correctAction();
+      trueAction(currentPlayerIndex)
     } else {
-      falseAction();
+      useQuestionStore.incorrectAction();
+      falseAction(currentPlayerIndex)
     }
 
-    nextPage();
+    handleNextQuestion()
+
+    useQuestionStore.nextPage();
 
     navigate(
-      page === allQuestion.length ? "/finish" : `/question/${Number(id) + 1}`
+      page === questions?.length ? "/finish" : `/question/${Number(id) + 1}`
     );
   };
 
   return (
     <AnimateProvider className="max-w-xl mx-auto">
-      <div className="flex max-w-fit flex-col ml-auto space-x-3 mb-10">
-        <TimeStamp />
-      </div>
+      <h1 className="text-lg font-bold text-slate-800 mb-10">
+        {currentPlayer.name}
+      </h1>
 
+      <div className="flex max-w-fit flex-col ml-auto space-x-3 mb-10">
+        <TimeStamp
+          time={settings.settings.time} />
+      </div>
       <Question
         id={page}
-        handleClick={handleClick}
+        handleClick={handleAnswer}
         singleQuestion={singleQuestion}
       />
     </AnimateProvider>

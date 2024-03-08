@@ -1,31 +1,31 @@
 import { useEffect, useState } from "react";
-import useQuestionStore from "../../store/zustand";
 import { getTimeByMs } from "../../utils";
 import { useNavigate } from "react-router-dom";
+import settings from "../../store/settings";
+import useQuestionStore from "../../store/questions";
 
 const defaultCountdown = {
   minutes: "00",
   seconds: "00",
 };
 
-function TimeStamp() {
+function TimeStamp({ time }) {
   const [countDown, setCountDown] = useState(defaultCountdown);
   const [startTime, setStartTime] = useState(true);
-  const { totalTime, setTimeStamp } = useQuestionStore();
-
+  const { setTimeStamp } = useQuestionStore;
+  //const { setTimeStamp } = settings;
   const navigate = useNavigate();
-
   useEffect(() => {
-    if (!totalTime) {
-      setTimeStamp(new Date(new Date().getTime() + 3 * 60000).getTime());
+    if (!useQuestionStore.questionData.totalTime) {
+      setTimeStamp(new Date(new Date().getTime() + time * 60000).getTime());
     }
   }, []);
 
   useEffect(() => {
     let intervalId;
-    if (startTime && totalTime) {
+    if (startTime && useQuestionStore.questionData.totalTime) {
       intervalId = setInterval(() => {
-        const timeNext = getTimeByMs(totalTime);
+        const timeNext = getTimeByMs(useQuestionStore.questionData.totalTime);
 
         if (timeNext) {
           setCountDown(timeNext);
@@ -40,7 +40,7 @@ function TimeStamp() {
     return () => {
       clearInterval(intervalId);
     };
-  }, [startTime, totalTime]);
+  }, [startTime, useQuestionStore.questionData.totalTime]);
 
   return (
     <>

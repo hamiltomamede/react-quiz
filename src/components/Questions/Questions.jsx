@@ -1,13 +1,12 @@
 import he from "he";
 import Option from "../Option/Option";
-import useQuestionStore from "../../store/zustand";
+import settings from "../../store/settings";
+import useQuestionStore from "../../store/questions";
 
 function Question({ id, handleClick, singleQuestion, summary }) {
+  const default_settings = settings
   const { incorrect_answers, correct_answer, question } = singleQuestion;
-  const { userAnswer: allUserAnswer } = useQuestionStore();
-
-  const userAnswer = allUserAnswer.find((ans) => ans.question === question);
-
+  const singleUserAnswer = useQuestionStore.questionData.question?.find((ans) => ans.question === question);
   const options = incorrect_answers
     .concat(correct_answer)
     .sort(() => Math.random() - 0.5);
@@ -27,7 +26,7 @@ function Question({ id, handleClick, singleQuestion, summary }) {
           idx={i}
           handleClick={handleClick}
           trueAnswer={correct_answer}
-          userAnswer={userAnswer}
+          userAnswer={singleUserAnswer}
           summary={summary}
         />
       ))}

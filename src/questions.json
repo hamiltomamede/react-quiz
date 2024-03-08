@@ -1,0 +1,730 @@
+{
+    "results": [
+        {
+            "category": "Biblico",
+            "difficulty": "medio",
+            "question": "Qual foi a primeira criação de Deus?",
+            "correct_answer": "Anjos",
+            "incorrect_answers": [
+                "Terra",
+                "Céus",
+                "Homem"
+            ]
+        },
+        {
+            "category": "Biblico",
+            "difficulty": "medio",
+            "question": "Quem é considerado o pai dos israelitas?",
+            "correct_answer": "Abraão",
+            "incorrect_answers": [
+                "Jacó",
+                "Moisés",
+                "José"
+            ]
+        },
+        {
+            "category": "Biblico",
+            "difficulty": "medio",
+            "question": "Qual é o primeiro livro da Bíblia?",
+            "correct_answer": "Gênesis",
+            "incorrect_answers": [
+                "Êxodo",
+                "Levítico",
+                "Números"
+            ]
+        },
+        {
+            "category": "Biblico",
+            "difficulty": "medio",
+            "question": "Qual foi a praga que atingiu o Egito antes da Páscoa?",
+            "correct_answer": "Morte dos primogênitos",
+            "incorrect_answers": [
+                "Chuva de fogo",
+                "Pragas de gafanhotos",
+                "Escuridão"
+            ]
+        },
+        {
+            "category": "Biblico",
+            "difficulty": "medio",
+            "question": "Quem escreveu a maior parte dos livros do Novo Testamento?",
+            "correct_answer": "Paulo",
+            "incorrect_answers": [
+                "Pedro",
+                "João",
+                "Tiago"
+            ]
+        },
+        {
+            "category": "Biblico",
+            "difficulty": "medio",
+            "question": "Qual é o último livro da Bíblia?",
+            "correct_answer": "Apocalipse",
+            "incorrect_answers": [
+                "1 Coríntios",
+                "Efésios",
+                "Hebreus"
+            ]
+        },
+        {
+            "category": "Biblico",
+            "difficulty": "medio",
+            "question": "Quantos discípulos Jesus teve?",
+            "correct_answer": "12",
+            "incorrect_answers": [
+                "10",
+                "15",
+                "20"
+            ]
+        },
+        {
+            "category": "Biblico",
+            "difficulty": "medio",
+            "question": "Qual é o nome do mar onde Jesus caminhou sobre a água?",
+            "correct_answer": "Mar da Galileia",
+            "incorrect_answers": [
+                "Mar Vermelho",
+                "Mar Morto",
+                "Mar Mediterrâneo"
+            ]
+        },
+        {
+            "category": "Biblico",
+            "difficulty": "medio",
+            "question": "Qual é o décimo mandamento da lei de Deus?",
+            "correct_answer": "Não cobiçar a casa do próximo",
+            "incorrect_answers": [
+                "Não matar",
+                "Não furtar",
+                "Não adulterar"
+            ]
+        },
+        {
+            "category": "Biblico",
+            "difficulty": "medio",
+            "question": "Quem era esposa de Abraão?",
+            "correct_answer": "Sara",
+            "incorrect_answers": [
+                "Rebeca",
+                "Raquel",
+                "Lea"
+            ]
+        },
+        {
+            "category": "Biblico",
+            "difficulty": "medio",
+            "question": "Qual dos filhos de Davi conspirou contra ele?",
+            "correct_answer": "Absalão",
+            "incorrect_answers": [
+                "Salomão",
+                "Adonias",
+                "Amnom"
+            ]
+        },
+        {
+            "category": "Biblico",
+            "difficulty": "medio",
+            "question": "Quantas pragas foram lançadas contra o Egito?",
+            "correct_answer": "10",
+            "incorrect_answers": [
+                "7",
+                "12",
+                "15"
+            ]
+        },
+        {
+            "category": "Biblico",
+            "difficulty": "medio",
+            "question": "Qual é o primeiro livro dos profetas maiores no Antigo Testamento?",
+            "correct_answer": "Isaías",
+            "incorrect_answers": [
+                "Jeremias",
+                "Ezequiel",
+                "Daniel"
+            ]
+        },
+        {
+            "category": "Biblico",
+            "difficulty": "medio",
+            "question": "Quem era a mãe de Jesus?",
+            "correct_answer": "Maria",
+            "incorrect_answers": [
+                "Sara",
+                "Rebeca",
+                "Ester"
+            ]
+        },
+        {
+            "category": "Biblico",
+            "difficulty": "medio",
+            "question": "Quem tentou convencer Abraão a não sacrificar seu filho?",
+            "correct_answer": "Anjo do Senhor",
+            "incorrect_answers": [
+                "Satanás",
+                "Isaque",
+                "Moisés"
+            ]
+        },
+        {
+            "category": "Biblico",
+            "difficulty": "medio",
+            "question": "Quem foi o irmão de Moisés?",
+            "correct_answer": "Aarão",
+            "incorrect_answers": [
+                "Josué",
+                "Calebe",
+                "Miriam"
+            ]
+        },
+        {
+            "category": "Biblico",
+            "difficulty": "medio",
+            "question": "Qual era o nome do jardim onde Deus colocou Adão e Eva?",
+            "correct_answer": "Éden",
+            "incorrect_answers": [
+                "Gólgota",
+                "Canaã",
+                "Sodoma"
+            ]
+        },
+        {
+            "category": "Biblico",
+            "difficulty": "medio",
+            "question": "Quem era a esposa de Isaque?",
+            "correct_answer": "Rebeca",
+            "incorrect_answers": [
+                "Raquel",
+                "Lea",
+                "Sara"
+            ]
+        },
+        {
+            "category": "Biblico",
+            "difficulty": "medio",
+            "question": "Qual foi a última praga lançada contra o Egito?",
+            "correct_answer": "Morte dos primogênitos",
+            "incorrect_answers": [
+                "Chuva de fogo",
+                "Pragas de gafanhotos",
+                "Escuridão"
+            ]
+        },
+        {
+            "category": "Biblico",
+            "difficulty": "medio",
+            "question": "Quem foi o primeiro rei de Israel?",
+            "correct_answer": "Saul",
+            "incorrect_answers": [
+                "Davi",
+                "Salomão",
+                "Samsom"
+            ]
+        },
+        {
+            "category": "Biblico",
+            "difficulty": "medio",
+            "question": "Qual é o nome do rio onde Jesus foi batizado?",
+            "correct_answer": "Rio Jordão",
+            "incorrect_answers": [
+                "Rio Nilo",
+                "Rio Tigre",
+                "Rio Eufrates"
+            ]
+        },
+        {
+            "category": "Biblico",
+            "difficulty": "medio",
+            "question": "Qual foi a tentação que Eva cedeu no jardim?",
+            "correct_answer": "Comer o fruto proibido",
+            "incorrect_answers": [
+                "Desobedecer a Deus",
+                "Abandonar Adão",
+                "Mentir para Deus"
+            ]
+        },
+        {
+            "category": "Biblico",
+            "difficulty": "medio",
+            "question": "Quantos dias e noites choveu durante o dilúvio?",
+            "correct_answer": "40",
+            "incorrect_answers": [
+                "30",
+                "50",
+                "60"
+            ]
+        },
+        {
+            "category": "Biblico",
+            "difficulty": "medio",
+            "question": "Qual é o nome do profeta que previu a vinda de Jesus?",
+            "correct_answer": "Isaías",
+            "incorrect_answers": [
+                "Jeremias",
+                "Ezequiel",
+                "Daniel"
+            ]
+        },
+        {
+            "category": "Biblico",
+            "difficulty": "medio",
+            "question": "Quem foi o discípulo que Jesus ressuscitou de entre os mortos?",
+            "correct_answer": "Lázaro",
+            "incorrect_answers": [
+                "Pedro",
+                "João",
+                "Tomé"
+            ]
+        },
+        {
+            "category": "Biblico",
+            "difficulty": "medio",
+            "question": "Qual era o nome do profeta que confrontou os profetas de Baal no Monte Carmelo?",
+            "correct_answer": "Elias",
+            "incorrect_answers": [
+                "Eliseu",
+                "Isaías",
+                "Jeremias"
+            ]
+        },
+        {
+            "category": "Biblico",
+            "difficulty": "medio",
+            "question": "Quantos filhos e filhas tinha Jó após suas provações?",
+            "correct_answer": "10",
+            "incorrect_answers": [
+                "5",
+                "8",
+                "12"
+            ]
+        },
+        {
+            "category": "Biblico",
+            "difficulty": "medio",
+            "question": "Qual é o primeiro livro do Novo Testamento?",
+            "correct_answer": "Mateus",
+            "incorrect_answers": [
+                "Marcos",
+                "Lucas",
+                "João"
+            ]
+        },
+        {
+            "category": "Biblico",
+            "difficulty": "medio",
+            "question": "Quem foi o primeiro rei de Israel?",
+            "correct_answer": "Saul",
+            "incorrect_answers": [
+                "Davi",
+                "Salomão",
+                "Samsom"
+            ]
+        },
+        {
+            "category": "Biblico",
+            "difficulty": "medio",
+            "question": "Quem foi o profeta que foi engolido por um grande peixe?",
+            "correct_answer": "Jonas",
+            "incorrect_answers": [
+                "Daniel",
+                "Ezequiel",
+                "Isaías"
+            ]
+        },
+        {
+            "category": "Biblico",
+            "difficulty": "medio",
+            "question": "Quem é conhecido como o amigo de Deus?",
+            "correct_answer": "Abraão",
+            "incorrect_answers": [
+                "Moisés",
+                "José",
+                "Isaque"
+            ]
+        },
+        {
+            "category": "Biblico",
+            "difficulty": "medio",
+            "question": "Qual é o nome do rei que lançou Daniel na cova dos leões?",
+            "correct_answer": "Dario",
+            "incorrect_answers": [
+                "Nabucodonosor",
+                "Ciro",
+                "Xerxes"
+            ]
+        },
+        {
+            "category": "Biblico",
+            "difficulty": "medio",
+            "question": "Quem era o pai de Moisés?",
+            "correct_answer": "Anrão",
+            "incorrect_answers": [
+                "Amram",
+                "Josué",
+                "Jetro"
+            ]
+        },
+        {
+            "category": "Biblico",
+            "difficulty": "medio",
+            "question": "Qual foi o profeta que viu uma escada que se estendia do céu à terra?",
+            "correct_answer": "Jacó",
+            "incorrect_answers": [
+                "Moisés",
+                "José",
+                "Ezequiel"
+            ]
+        },
+        {
+            "category": "Biblico",
+            "difficulty": "medio",
+            "question": "Quem matou Golias com uma pedra e uma funda?",
+            "correct_answer": "Davi",
+            "incorrect_answers": [
+                "Salomão",
+                "Josué",
+                "Sansão"
+            ]
+        },
+        {
+            "category": "Biblico",
+            "difficulty": "medio",
+            "question": "Qual era o nome da esposa de Noé?",
+            "correct_answer": "Naamá",
+            "incorrect_answers": [
+                "Dina",
+                "Miriã",
+                "Rebeca"
+            ]
+        },
+        {
+            "category": "Biblico",
+            "difficulty": "medio",
+            "question": "Quantos anos viveu Adão?",
+            "correct_answer": "930",
+            "incorrect_answers": [
+                "700",
+                "800",
+                "1000"
+            ]
+        },
+        {
+            "category": "Biblico",
+            "difficulty": "medio",
+            "question": "Quem foi o irmão mais velho de Moisés?",
+            "correct_answer": "Aarão",
+            "incorrect_answers": [
+                "Josué",
+                "Calebe",
+                "Miriam"
+            ]
+        },
+        {
+            "category": "Biblico",
+            "difficulty": "medio",
+            "question": "Quem era o profeta que era conhecido como 'o choro de Jeremias'?",
+            "correct_answer": "Jeremias",
+            "incorrect_answers": [
+                "Isaías",
+                "Ezequiel",
+                "Daniel"
+            ]
+        },
+        {
+            "category": "Biblico",
+            "difficulty": "medio",
+            "question": "Quem era a esposa de Isaque?",
+            "correct_answer": "Rebeca",
+            "incorrect_answers": [
+                "Raquel",
+                "Lea",
+                "Sara"
+            ]
+        },
+        {
+            "category": "Biblico",
+            "difficulty": "medio",
+            "question": "Qual é o último livro do Antigo Testamento?",
+            "correct_answer": "Malaquias",
+            "incorrect_answers": [
+                "Zacarias",
+                "Ageu",
+                "Ester"
+            ]
+        },
+        {
+            "category": "Biblico",
+            "difficulty": "medio",
+            "question": "Quantos filhos e filhas tinha Jó antes de suas provações?",
+            "correct_answer": "10",
+            "incorrect_answers": [
+                "5",
+                "8",
+                "12"
+            ]
+        },
+        {
+            "category": "Biblico",
+            "difficulty": "medio",
+            "question": "Quem é conhecido como 'o homem segundo o coração de Deus'?",
+            "correct_answer": "Davi",
+            "incorrect_answers": [
+                "Salomão",
+                "Saul",
+                "Sansão"
+            ]
+        },
+        {
+            "category": "Biblico",
+            "difficulty": "medio",
+            "question": "Quem era o pai de José, o esposo de Maria?",
+            "correct_answer": "Jacó",
+            "incorrect_answers": [
+                "José",
+                "Abraão",
+                "Isaque"
+            ]
+        },
+        {
+            "category": "Biblico",
+            "difficulty": "medio",
+            "question": "Qual é o nome do local onde Jesus nasceu?",
+            "correct_answer": "Belém",
+            "incorrect_answers": [
+                "Jerusalém",
+                "Nazaré",
+                "Hebron"
+            ]
+        },
+        {
+            "category": "Biblico",
+            "difficulty": "medio",
+            "question": "Quem foi o primeiro profeta a reinar como rei sobre Israel?",
+            "correct_answer": "Saul",
+            "incorrect_answers": [
+                "Samuel",
+                "Davi",
+                "Salomão"
+            ]
+        },
+        {
+            "category": "Biblico",
+            "difficulty": "medio",
+            "question": "Quem foi o rei que construiu o primeiro templo em Jerusalém?",
+            "correct_answer": "Salomão",
+            "incorrect_answers": [
+                "Davi",
+                "Ezequias",
+                "Josias"
+            ]
+        },
+        {
+            "category": "Biblico",
+            "difficulty": "medio",
+            "question": "Quantos anos viveu Adão?",
+            "correct_answer": "930",
+            "incorrect_answers": [
+                "700",
+                "800",
+                "1000"
+            ]
+        },
+        {
+            "category": "Biblico",
+            "difficulty": "medio",
+            "question": "Quem foi o primeiro rei de Israel?",
+            "correct_answer": "Saul",
+            "incorrect_answers": [
+                "Davi",
+                "Salomão",
+                "Samsom"
+            ]
+        },
+        {
+            "category": "Biblico",
+            "difficulty": "medio",
+            "question": "Qual era o nome do rei que lançou Daniel na cova dos leões?",
+            "correct_answer": "Dario",
+            "incorrect_answers": [
+                "Nabucodonosor",
+                "Ciro",
+                "Xerxes"
+            ]
+        },
+        {
+            "category": "Biblico",
+            "difficulty": "medio",
+            "question": "Quem era o pai de Moisés?",
+            "correct_answer": "Anrão",
+            "incorrect_answers": [
+                "Amram",
+                "Josué",
+                "Jetro"
+            ]
+        },
+        {
+            "category": "Biblico",
+            "difficulty": "medio",
+            "question": "Qual foi o profeta que viu uma escada que se estendia do céu à terra?",
+            "correct_answer": "Jacó",
+            "incorrect_answers": [
+                "Moisés",
+                "José",
+                "Ezequiel"
+            ]
+        },
+        {
+            "category": "Biblico",
+            "difficulty": "medio",
+            "question": "Quem matou Golias com uma pedra e uma funda?",
+            "correct_answer": "Davi",
+            "incorrect_answers": [
+                "Salomão",
+                "Josué",
+                "Sansão"
+            ]
+        },
+        {
+            "category": "Biblico",
+            "difficulty": "medio",
+            "question": "Qual era o nome da esposa de Noé?",
+            "correct_answer": "Naamá",
+            "incorrect_answers": [
+                "Dina",
+                "Miriã",
+                "Rebeca"
+            ]
+        },
+        {
+            "category": "Biblico",
+            "difficulty": "medio",
+            "question": "Quantos anos viveu Adão?",
+            "correct_answer": "930",
+            "incorrect_answers": [
+                "700",
+                "800",
+                "1000"
+            ]
+        },
+        {
+            "category": "Biblico",
+            "difficulty": "medio",
+            "question": "Quem foi o irmão mais velho de Moisés?",
+            "correct_answer": "Aarão",
+            "incorrect_answers": [
+                "Josué",
+                "Calebe",
+                "Miriam"
+            ]
+        },
+        {
+            "category": "Biblico",
+            "difficulty": "medio",
+            "question": "Quem era o profeta que era conhecido como 'o choro de Jeremias'?",
+            "correct_answer": "Jeremias",
+            "incorrect_answers": [
+                "Isaías",
+                "Ezequiel",
+                "Daniel"
+            ]
+        },
+        {
+            "category": "Biblico",
+            "difficulty": "medio",
+            "question": "Quem era a esposa de Isaque?",
+            "correct_answer": "Rebeca",
+            "incorrect_answers": [
+                "Raquel",
+                "Lea",
+                "Sara"
+            ]
+        },
+        {
+            "category": "Biblico",
+            "difficulty": "medio",
+            "question": "Qual é o último livro do Antigo Testamento?",
+            "correct_answer": "Malaquias",
+            "incorrect_answers": [
+                "Zacarias",
+                "Ageu",
+                "Ester"
+            ]
+        },
+        {
+            "category": "Biblico",
+            "difficulty": "medio",
+            "question": "Quantos filhos e filhas tinha Jó antes de suas provações?",
+            "correct_answer": "10",
+            "incorrect_answers": [
+                "5",
+                "8",
+                "12"
+            ]
+        },
+        {
+            "category": "Biblico",
+            "difficulty": "medio",
+            "question": "Quem é conhecido como 'o homem segundo o coração de Deus'?",
+            "correct_answer": "Davi",
+            "incorrect_answers": [
+                "Salomão",
+                "Saul",
+                "Sansão"
+            ]
+        },
+        {
+            "category": "Biblico",
+            "difficulty": "medio",
+            "question": "Quem era o pai de José, o esposo de Maria?",
+            "correct_answer": "Jacó",
+            "incorrect_answers": [
+                "José",
+                "Abraão",
+                "Isaque"
+            ]
+        },
+        {
+            "category": "Biblico",
+            "difficulty": "medio",
+            "question": "Qual é o nome do local onde Jesus nasceu?",
+            "correct_answer": "Belém",
+            "incorrect_answers": [
+                "Jerusalém",
+                "Nazare",
+                "Hebron"
+            ]
+        },
+        {
+            "category": "Biblico",
+            "difficulty": "medio",
+            "question": "Quem foi o primeiro profeta a reinar como rei sobre Israel?",
+            "correct_answer": "Saul",
+            "incorrect_answers": [
+                "Samuel",
+                "Davi",
+                "Salomão"
+            ]
+        },
+        {
+            "category": "Biblico",
+            "difficulty": "medio",
+            "question": "Quem foi o rei que construiu o primeiro templo em Jerusalém?",
+            "correct_answer": "Salomão",
+            "incorrect_answers": [
+                "Davi",
+                "Ezequias",
+                "Josias"
+            ]
+        },
+        {
+            "category": "Biblico",
+            "difficulty": "medio",
+            "question": "Quantos anos viveu Adão?",
+            "correct_answer": "930",
+            "incorrect_answers": [
+                "700",
+                "800",
+                "1000"
+            ]
+        }
+    ]
+}
